@@ -8,7 +8,7 @@ AI-powered Discord server-management bot for the ZenithArc Studio community. **M
 - Community tools: `/serverinfo`, `/report`, `/bug`
 - Optional AI assistant using an OpenAI-compatible API endpoint
 - SQLite storage for warnings and submissions
-- Audit-style console logging for member joins/leaves and moderation actions
+- Console logging for member joins/leaves and moderation actions
 
 ## Requirements
 - Node.js 20+
@@ -16,7 +16,7 @@ AI-powered Discord server-management bot for the ZenithArc Studio community. **M
 - Optional API key for your chosen AI provider
 
 ## Local setup
-1. Clone this repository and check out the `zenitharc-studio-bot` branch (or use the default branch if the project is merged there).
+1. Clone this repository.
 2. Install dependencies: `npm install`
 3. Copy `.env.example` to `.env` and fill in your values.
 4. Invite the bot with the `bot` and `applications.commands` scopes. Grant only the permissions needed for enabled features.
